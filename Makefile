@@ -5,7 +5,7 @@ start: #mkdir
 restart: clean build run
 
 mkdir:
-	mkdir /tmp/data /tmp/data/db /tmp/data/wp
+	mkdir ~/data ~/data/db ~/data/wp
 build:
 	cd srcs && docker-compose build
 run:
